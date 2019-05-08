@@ -1,8 +1,8 @@
 {
   "name": "vuewebpack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "webpack4 vue CLI advanced setup and config",
-  "author": "Narek Sahakyan <sahakyan.dev@gmail.com>",
+  "author": "Marianna Poghosyan <poghosyan.may@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js --open",
@@ -20,7 +20,7 @@
     "bootstrap-vue": "^2.0.0-rc.11",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.4",
-    "vue": "^2.5.2",
+    "vue": "^2.5.17",
     "vue-axios": "^2.1.4",
     "vue-router": "^3.0.1"
   },
@@ -30,7 +30,7 @@
     "babel-core": "^6.22.1",
     "babel-eslint": "^8.2.1",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
-    "babel-jest": "^21.0.2",
+    "babel-jest": "^24.8.0",
     "babel-loader": "^7.1.1",
     "babel-plugin-dynamic-import-node": "^1.2.0",
     "babel-plugin-syntax-jsx": "^6.18.0",
@@ -42,6 +42,7 @@
     "babel-register": "^6.22.0",
     "chalk": "^2.0.1",
     "chromedriver": "^2.27.2",
+    "compression-webpack-plugin": "1.1.12",
     "copy-webpack-plugin": "^4.0.1",
     "cross-spawn": "^5.0.1",
     "css-loader": "^0.28.0",
@@ -83,7 +84,7 @@
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
     "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.1.11",
+    "webpack-dev-server": "^2.9.1",
     "webpack-merge": "^4.1.0"
   },
   "engines": {
@@ -97,10 +98,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sahakyan-dev/Webpack4-VueCLI-advanced-template.git"
+    "url": "git+https://github.com/marianna01/Webpack-Vue-advanced-template.git"
   },
   "bugs": {
-    "url": "https://github.com/sahakyan-dev/Webpack4-VueCLI-advanced-template/issues"
+    "url": "https://github.com/marianna01/Webpack-Vue-advanced-template/issues"
   },
-  "homepage": "https://github.com/sahakyan-dev/Webpack4-VueCLI-advanced-template#readme"
+  "homepage": "https://github.com/marianna01/Webpack-Vue-advanced-template#readme"
 }
